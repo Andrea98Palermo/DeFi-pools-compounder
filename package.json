@@ -1,0 +1,30 @@
+{
+  "name": "compounder",
+  "version": "1.0.0",
+  "description": "<h3>Requirements</h3>\r <p>Install the following npm packages:</p>\r <ul>\r <li>NodeJS</li>\r <li>Web3</li>\r <li>BigNumber.js</li>\r <li>dotenv</li>\r <li>@openzeppelin/contracts</li>\r <li>@truffle/hdwallet-provider</li>\r </ul>",
+  "main": "bot/main.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JediKunnow/Compounder.git"
+  },
+  "author": "Filippo Sofi",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/JediKunnow/Compounder/issues"
+  },
+  "homepage": "https://github.com/JediKunnow/Compounder#readme",
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.3.2",
+    "@truffle/hdwallet-provider": "^1.5.0",
+    "bignumber.js": "^9.0.1",
+    "dotenv": "^10.0.0",
+    "truffle-plugin-verify": "^0.5.15",
+    "web3": "^1.5.2"
+  }
+}
